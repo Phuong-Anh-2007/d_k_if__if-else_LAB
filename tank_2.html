@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tank 1990</title>
+</head>
+<body>
+    <div style="border: 3px solid black; height: 190px; width: 190px; background-color: white;">
+        <div
+            style="top: 19px; left: 38px;
+                width: 19px; height: 19px; 
+                background-image: url('img/tank-1.png');
+                background-size: 100% 100%;
+                position: relative;"
+            id="tank">
+    </div>
+    <div
+        style="top: 76px; left: 133px;
+            width: 19px; height: 19px; 
+            background-image: url('img/boom.png');
+            background-size: 100% 100%;
+            position: absolute;"
+        id="boom">
+    </div>
+    </div>
+    <br>
+    <table>
+        <tr>
+            <td></td>
+            <td><button onclick="click_top()" >🔼</button></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><button onclick="click_left()">◀</button></td>
+            <td></td>
+            <td><button onclick="click_right()">▶</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button onclick="click_bottom()" >🔽</button></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
+<script src="tank_2.js"></script>
