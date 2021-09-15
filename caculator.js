@@ -1,15 +1,13 @@
-let inp = document.getElementById('inp');
-let input;
-function inp_value (value) {
-    inp.value += value; 
-    input = inp;
-    console.log(input);
-}
+let view = document.getElementById("inp");
+    function inp_value(value) {
+        view.value +=value;
+    }
 
-function AC() {
-    inp.value ='';
-}
+    function AC() {
+        view.value="";
+    }
 
-function result() {
-    eval(inp.value);
-}
+    function result() {
+        view.value = eval(view.value);
+
+    }
