@@ -11,7 +11,5 @@ function AC() {
 }
 
 function result() {
-    if (inp.value='+') {
-        inp.value = inp.value+inp.value;
-    }
+    eval(inp.value);
 }
